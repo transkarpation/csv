@@ -1,0 +1,35 @@
+.csv-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.csv-input__label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #92C47D;
+    border: 1px solid rgba(0, 0, 0, .3);
+    color: white;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
+.csv-input__label:hover {
+    cursor: pointer;
+}
+
+.csv-input__input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.csv-input__error {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f4cccc;
+    border: 1px solid #F6B3BA;
+    text-align: center;
+}

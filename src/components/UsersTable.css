@@ -1,0 +1,13 @@
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+td {
+  border: 1px solid black;
+}
+
+.users-table .error {
+  background-color: red;
+}
